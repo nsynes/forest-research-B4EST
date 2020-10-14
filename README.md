@@ -37,6 +37,10 @@ Calculates potential evapotranspiration based on the modified Hargreaves equatio
 Calculates climate moisture deficit using potential evapotranspiration and precipitation (use calculate-PET.R before using this script).
 
 
+# calculate-adjusted-CMD.R
+Calculates an adjusted climate moisture deficit using quadratic transformation based on ESC data. This script requires 'calculate-CMD.R' to have already been run.
+
+
 ## plot-exceedance.R
 Run this script after the exceedance raster data has been created using the 'calculate-indices.R' script. Using that data, this script will generate figures displaying exceedance frequency.
 
